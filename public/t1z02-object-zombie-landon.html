@@ -1,14 +1,40 @@
 <h1 align=center> t1z02-object-zombie-landon.html </h1>
 <script>
 
-   
+   let myzombie = {
+      'zombie' : true,
+      'name' : 'jon'
+   }
+     let myzombie = {
+      'zombie' : false,
+      'name' : 'dan'
+     }
+
 </script>
 
+is <select id="myselect01"  size=1 onchange="{
+   myinput = document.getelementbyid('myselect'). value
+if (myzombie.name == myinput && myzombie.zombie) {
+   document.getelementbyid ('mydiv01') . innerhtml = myinput + ' is a zombie"
+      } else if (myhuman.name == myinput && myzombie.zombie) {
+ document.getelementbyid ('mydiv01') . innerhtml = myinput + ' is a zombie"
+   } else {
+    document.getelementbyid ('mydiv01') . innerhtml = myinput + ' is NOT a zombie"
+   }
+   }">
+   <option>
+   <option>dan
+         <option>dan
+</select> a zombie? <br>
+
+<div id="mydiv01">...</div>div><br>
 
 
 
-is <input id="myext01" type="text" value= "jon"> a zombie<br>
-<input type=button value= "check it" onclick="[
-   alert ('maybe')
-  ]"><br>
-  <div id="my0lv01"></div><br>
+
+
+
+
+
+
+
