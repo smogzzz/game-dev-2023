@@ -17,7 +17,16 @@ note: ! = not, && = AND,  || = OR
 
 <h4> example working code</h4>
 
-<input  id="mynum01" type=number
+<input  id="mynum01" type=number value="4" ><br>
+
+<input type=button value="simple if statment for decision making" onclick="{
+  if (myin01 >= 3){
+    document.getelementbyid('mydiv01').innerHTML = myin01 + ' is greater than 3'
+  } else {
+    document.getelementbyid('mydiv01').innerHTML = myin01 + ' is less than 3'
+  }">
+<input type=button value="complex if" onclick="{
+  let myin01 = parse
 
 
 
