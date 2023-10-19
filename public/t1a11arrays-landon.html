@@ -19,3 +19,24 @@ arrays are stored numbered variables
 
 max array entry: <input type=text id="mytext01" value="3"><br>
 
+<input type=button value="example onclick" onclick="{
+  let mytemp = document.getelementbyid('mytext01').value
+  let mysum = ''
+  document.getelementbyid('nydiv01').innerhtml = ' '
+
+  myarray = new array()
+  myarray[0] = 'fred'
+  myarray[1] = 'mary'
+  myarray[2] = 'zizzy'
+
+  for (let myloop=0; myloop < mytemp; myloop++){
+    mysum += 'loop #: ' + myloop + ' array entry: ' = myarray[myloop] +' <br>'
+  }
+  document.getelementbyid('mydiv01').innerhtml = mysum
+}">
+<div id="mydiv01">...</div>
+
+<br>
+
+you do atleast 7 other araays:<br>
+
