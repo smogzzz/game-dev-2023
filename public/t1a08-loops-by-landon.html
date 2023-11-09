@@ -18,18 +18,14 @@ document.getelementbyid('mydiv01').innerhtml = ''
 
   let myMax = parseInt(document.getelementbyid('mynum01').value)
 
-  for (let myloop = 0; myloop < mymax; myloop++ ){
-    if (myloop * 2  mymax){
+  for (let myloop = 0; myloop < myMax; myloop++ ){
+    if (myloop * 2  myMax){
       my temp += ' cool '
     }
     mytemp += 'loop number: ' + myloop + ' <br>'
   }
   document.getelementbyid('mydiv01').innerhtml + mytemp
 }">
-|
-
-
-<div id="mydiv01">...</div>
 
 
 
